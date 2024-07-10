@@ -25,9 +25,9 @@ export default function SelectModel() {
             id='document-choix'
             label="PDF"
             onChange={handleChange}>
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Tweny</MenuItem>
-                <MenuItem value={"truc"}>Truc</MenuItem>
+                <MenuItem value={10}>Prem</MenuItem>
+                <MenuItem value={20}>Deux</MenuItem>
+                <MenuItem value={30}>Trois</MenuItem>
             </Select>
         </FormControl>
         
