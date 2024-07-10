@@ -49,28 +49,28 @@ export default function SelectDoc() {
             key={0}
             disableGutters
             secondaryAction={
-                <CopyButton texte={"Quand doit-on déposer une déclaration de travaux?"} />
+                <CopyButton texte={"Première question?"} />
             }
             >
-            <ListItemText primary={'Quand doit-on déposer une déclaration de travaux?'} />
+            <ListItemText primary={'Deuxième question'} />
             </ListItem>
             <ListItem
                         key={1}
                         disableGutters
                         secondaryAction={
-                            <CopyButton texte={"Quel est la première démarche?"} />
+                            <CopyButton texte={"Troisième question pour tester?"} />
                         }
                         >
-                        <ListItemText primary={'Quel est la première démarche?'} />
+                        <ListItemText primary={'Troisième question pour tester?'} />
                         </ListItem>
                         <ListItem
                         key={2}
                         disableGutters
                         secondaryAction={
-                            <CopyButton texte={"Quand doit-on déposer une déclaration de travaux?"} />
+                            <CopyButton texte={"Première question pour tester?"} />
                         }
                         >
-                        <ListItemText primary={'Quand doit-on déposer une déclaration de travaux?'} />
+                        <ListItemText primary={'Première question pour tester?'} />
                         </ListItem>
         </List>
 
